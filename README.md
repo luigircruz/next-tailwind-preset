@@ -58,7 +58,7 @@ Examples:
 
 ```js
 import '@/styles/globals.css'
-import '@/components/MyComponent'
+import MyComponent from '@/components/MyComponent'
 ```
 
 You can find all of the configured paths on the [jsconfig.json](./jsconfig.json) file.
