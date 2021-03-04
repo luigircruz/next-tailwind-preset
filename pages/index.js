@@ -5,59 +5,57 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>NextJS and Tailwind Preset</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+      <main className="py-20 px-0 flex flex-col flex-1 justify-center items-center">
+        <h1 className="m-0 text-7xl flex flex-col justify-center items-center">
+          <span>You are now using</span>
+          <a href="#" className="text-blue-500 no-underline hover:underline focus:underline mt-4">
+            NextJS + TailwindCSS!
+          </a>
         </h1>
 
-        <p className={styles.description}>
+        <p className="text-2xl mt-12">
           Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+          <code className="bg-gray-50 rounded p-2 text-lg">pages/index.js</code>
         </p>
 
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+        <div className="flex justify-center items-center flex-wrap max-w-3xl mt-12">
+          <a
+            href="https://nextjs.org/docs"
+            className="m-4 p-6 text-left no-underline border border-solid border-gray-200 rounded-lg transition hover:text-blue-500 hover:border-blue-500"
+          >
+            <h3 className="mb-4 text-2xl">Documentation &rarr;</h3>
+            <p className="m-0 text-xl">Find in-depth information about Next.js features and API.</p>
           </a>
 
           <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
+            href="https://tailwindcss.com/docs"
+            className="m-4 p-6 text-left no-underline border border-solid border-gray-200 rounded-lg transition hover:text-blue-500 hover:border-blue-500"
           >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+            <h3 className="mb-4 text-2xl">Learn &rarr;</h3>
+            <p className="m-0 text-xl">
+              Learn about Next.js in an interactive course with quizzes!
             </p>
           </a>
         </div>
       </main>
 
-      <footer className={styles.footer}>
+      <footer className="w-full h-24 border-t border-solid border-gray-200 flex justify-center items-center">
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="https://luigicruz.dev"
           target="_blank"
           rel="noopener noreferrer"
+          className="flex justify-center items-center"
         >
           Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
+          <img
+            src="https://luigicruz.dev/logo-soft.svg"
+            alt="Luigi Controller Logo"
+            className="ml-2 w-6 h-6"
+          />
         </a>
       </footer>
     </div>
