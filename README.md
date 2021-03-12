@@ -2,7 +2,7 @@ A starter preset for [NextJS](https://nextjs.org) and [TailwindCSS](https://tail
 
 ![Homepage View](./public/og-next-tailwind-preset.png)
 
-This preset includes [Prettier](https://prettier.io) for code formatting and I've also setup the `jsconfig.json` for package import purposes.
+This preset includes [Prettier](https://prettier.io) for code formatting and the `jsconfig.json` have been configured for importing from path purposes.
 
 ## Getting Started
 
@@ -36,4 +36,29 @@ yarn dev
 
 5. Open http://localhost:3000 with your browser to see the result. 
 
-And that's it! You now have a starter project with tailwind support in just 1 min.
+And that's it! You now have a starter project with tailwind support in less than a minute.
+
+## Tips
+
+To format your codes via **Prettier**, just use the format command.
+
+```bash
+yarn format
+```
+
+To build and run your application, just use the build-start command.
+
+```bash
+yarn build-start
+```
+
+Instead of figuring out the path of your imports, just prefix your directory paths to `@/directory`.
+
+Examples:
+
+```js
+import '@/styles/globals.css'
+import MyComponent from '@/components/MyComponent'
+```
+
+You can find all of the configured paths on the [jsconfig.json](./jsconfig.json) file.

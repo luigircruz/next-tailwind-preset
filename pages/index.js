@@ -1,9 +1,8 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div className="min-h-screen px-2 flex flex-col justify-center items-center">
       <Head>
         <title>NextJS and Tailwind Preset</title>
         <link rel="icon" href="/favicon.ico" />
