@@ -2,7 +2,7 @@ import Head from 'next/head'
 
 export default function Home() {
   return (
-    <div className="min-h-screen px-2 flex flex-col justify-center items-center">
+    <div className="flex flex-col items-center justify-center min-h-screen px-2">
       <Head>
         <title>NextJS and Tailwind Preset</title>
         <link rel="icon" href="/favicon.ico" />
