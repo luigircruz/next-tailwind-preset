@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "build-start": "next build && next start",
+    "lint": "next lint",
     "format": "prettier '{components,data,hooks,layouts,lib,pages,scripts,styles,utils}/**/*.{css,js,mdx}' --write"
   },
   "dependencies": {
