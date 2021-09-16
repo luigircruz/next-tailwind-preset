@@ -11,17 +11,17 @@
     "format": "prettier '{components,data,hooks,layouts,lib,pages,scripts,styles,utils}/**/*.{css,js,mdx}' --write"
   },
   "dependencies": {
-    "next": "11.0.1",
+    "next": "11.1.2",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
   "devDependencies": {
-    "autoprefixer": "^10.3.1",
-    "eslint": "^7.30.0",
-    "eslint-config-next": "^11.0.1",
+    "autoprefixer": "^10.3.4",
+    "eslint": "^7.32.0",
+    "eslint-config-next": "^11.1.2",
     "eslint-config-prettier": "^8.3.0",
-    "postcss": "^8.3.5",
-    "prettier": "^2.3.2",
-    "tailwindcss": "^2.2.4"
+    "postcss": "^8.3.6",
+    "prettier": "^2.4.1",
+    "tailwindcss": "^2.2.15"
   }
 }
